@@ -13,7 +13,7 @@
     <ul>
         <?php 
 
-        $query = "SELECT * FROM games";
+        $query = "SELECT * FROM producten";
 
         $games = getData($query, 'fetchAll');
 

@@ -12,7 +12,7 @@ $platform =$_POST['uitgever'];
 $voorraad = $_POST['voorraad'];
 $prijs = $_POST['prijs'];
 
-$query = "INSERT INTO games (titel, uitgever,platform, voorraad,prijs) 
+$query = "INSERT INTO producten (titel, uitgever,platform, voorraad,prijs) 
 VALUES('$titel' , '$uitgever', '$platform', '$voorraad','$prijs')";
 
 $conn->exec($query)
